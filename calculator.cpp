@@ -4,7 +4,7 @@ using namespace std;
 int main() {
 
   char op;
-  int num1, num2;
+  double num1, num2;
 
   cout << "Enter operator: +, -, *, /: ";
   cin >> op;
