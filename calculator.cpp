@@ -12,7 +12,11 @@ int main() {
   cout << "Enter two operands: ";
   cin >> num1 >> num2;
 
+<<<<<<< HEAD
   switch(op) { //switch statement
+=======
+  switch(op) {//this is switch for options 
+>>>>>>> 5f9e4f99afff76f156e31c40990b7ee8937cff20
 
     case '+':
       cout << num1 << " + " << num2 << " = " << num1 + num2;
