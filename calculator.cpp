@@ -4,7 +4,7 @@ using namespace std;
 int main() {
 
   char op;
-  double num1, num2;
+  float num1, num2;
 
   cout << "Enter operator: +, -, *, /: ";
   cin >> op;
@@ -12,7 +12,7 @@ int main() {
   cout << "Enter two operands: ";
   cin >> num1 >> num2;
 
-  switch(op) {
+  switch(op) { //switch statement
 
     case '+':
       cout << num1 << " + " << num2 << " = " << num1 + num2;
